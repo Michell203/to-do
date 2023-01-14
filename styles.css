@@ -38,6 +38,10 @@ ul > li.checked::before{
     border-color: #fff;
     border-style: solid;
     border-width: 0px 2px 2px 0px;
+    top: 10px;
+    left: 16px;
+    height: 15px;
+    width: 7px;
 }
 
 .close {
@@ -52,10 +56,46 @@ ul > li.checked::before{
     color: white;
 }
 
+h3{
+    font-size: 30px;
+}
+
 hgroup{
-    background-color: #d90429;
+    border-radius: 25px;
+    background-color: #EF233C;
     text-align: center;
     color: #edf2f4;
     padding: 30px 40px;
 
+}
+
+hgroup::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input{
+    margin: 0;
+    border: none;
+    border-radius: 25px;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font-size: 17px;
+}
+
+.add{
+    background-color: #D90429;
+    border: none;
+    border-radius: 25px;
+    width: 20%;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.add:hover{
+    background-color: #ad0521;
 }
